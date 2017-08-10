@@ -1,6 +1,6 @@
 {
-  "name": "time",
-  "version": "1.0.0",
+  "name": "timestring-unit",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
