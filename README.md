@@ -7,6 +7,7 @@ This library is used for converting time strings, e.g. `1 month`, to an integer 
 ```javascript
 const tsUnit = require('timestring-unit');
 
+tsUnit.parse('1 hour'); // 3600000
 tsUnit.parseTo('1 hour', 'ms'); // 3600000
 tsUnit.parseTo('1 minute', 'ms'); // 60000
 tsUnit.parseTo('1min', 'ms'); // 60000
