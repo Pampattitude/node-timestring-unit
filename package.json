@@ -1,10 +1,14 @@
 {
   "name": "timestring-unit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pampattitude/node-timestring-unit.git"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ignore tests,node_modules .",
