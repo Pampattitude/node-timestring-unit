@@ -1,7 +1,7 @@
 {
   "name": "timestring-unit",
   "version": "0.1.1",
-  "description": "",
+  "description": "Time string conversion",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -10,12 +10,27 @@
     "type": "git",
     "url": "https://github.com/Pampattitude/node-timestring-unit.git"
   },
+  "keywords": [
+    "node",
+    "nodejs",
+    "node.js",
+    "js",
+    "javascript",
+    "time",
+    "unit",
+    "ms",
+    "millisecond",
+    "second",
+    "string",
+    "conversion"
+  ],
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ignore tests,node_modules .",
-    "test": "mocha -S --recursive tests"
+    "test": "nyc mocha -S --recursive tests"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pampattitude",
+  "license": "LGPL",
+  "readmeFilename": "README.md",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.1",
@@ -26,6 +41,8 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "mocha": "^3.5.0"
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
   }
 }
