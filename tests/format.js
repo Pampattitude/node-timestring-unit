@@ -1,5 +1,3 @@
-/* eslint no-undef: "off" */
-
 const chai = require('chai');
 const dirtyChai = require('dirty-chai');
 

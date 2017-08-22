@@ -18,6 +18,7 @@ module.exports = {
     semi: ['warn', 'always'],
     'semi-spacing': 'off',
     'space-before-function-paren': 'off',
+    'template-tag-spacing': 'off',
     yoda: ['warn', 'always'],
   },
 };
